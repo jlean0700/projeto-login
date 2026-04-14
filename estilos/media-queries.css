@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* 
+    Tamanhos de telas:
+    Pequenas Telas e Celular: até 480px
+    Tablet e Foldables: 481px - 1024px
+    Desktop e Laptops:  1025px - 1600px
+    TV e Monitores Ultra-Wide:  1601px - 3840px ou mais     
+*/
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 3840px) {
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+   
+}
