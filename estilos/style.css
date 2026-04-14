@@ -16,7 +16,7 @@ Vermelho #e76f51
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #f0f0f0;
     height: 100vh;
     width: 100vw;
 }
@@ -39,6 +39,8 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width 0.5s ease-in-out;
 }
 
 section#login > div#imagem {
