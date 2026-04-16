@@ -75,7 +75,8 @@
     }
 
     div#formulario > p {
-        font-size: 2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 
 }
