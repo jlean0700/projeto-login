@@ -67,7 +67,8 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: #f0f0f0;
+    background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     display: block;
     width: 100%;
     height: 40px;
@@ -80,19 +81,19 @@ div.campo > label {
 }
 
 div.campo > i {
-    background-color: #f0f0f0;
+    /* background-color: #8527c4; */
     font-size: 2em;
-    color: #5f2c82;
-    padding: 5px;
+    color: white;
     width: 40px;
+    padding: 5px;
 }
 
 div.campo > input {
     font-size: 1em;
-    background-color: transparent;
-    width: calc(100% - 50px);
+    background-color: #d3d1d4;
+    width: calc(100% - 45px);
     height: 100%;
-    transform: translateY(-10px);
+    transform: translateY(-12px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
