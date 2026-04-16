@@ -16,6 +16,7 @@
     body {
         background-image: linear-gradient(to top, #5f2c82, #a8dadc);
     }
+    
     section#login {
         width: 80vw;
         height: 450px;
