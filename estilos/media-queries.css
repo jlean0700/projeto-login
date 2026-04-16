@@ -42,7 +42,20 @@
         font-size: 1.2em;
         padding: 10px;
     }
+
+    div.campo > input {
+    background-color: white;
+    width: calc(100% - 44.36px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
 }
+
+}
+
+
 
 
 /* configuraões telas grandes */
@@ -82,12 +95,12 @@
 
     div.campo > input {
     background-color: white;
-    width: calc(100% - 44.39px);
+    width: calc(100% - 44.36px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-11px);
+    transform: translateY(-12px);
 }
 
 }
