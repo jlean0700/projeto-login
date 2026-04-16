@@ -88,6 +88,12 @@ div.campo > i {
     height: 100%;
 }
 
+div.campo > input {
+    background-color: transparent;
+    border: none;
+    
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
