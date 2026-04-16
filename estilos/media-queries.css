@@ -19,7 +19,7 @@
 
     section#login {
         width: 80vw;
-        height: 280px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -39,7 +39,8 @@
     }
 
     div#formulario > p {
-        font-size: 1.5em;
+        font-size: 1.2em;
+        padding: 10px;
     }
 }
 
@@ -78,5 +79,15 @@
         font-size: 1em;
         margin: 20px 0px;
     }
+
+    div.campo > input {
+    background-color: white;
+    width: calc(100% - 44.39px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-11px);
+}
 
 }
