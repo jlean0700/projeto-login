@@ -11,7 +11,7 @@
 
 /* configuraões celulares e tablets */
 
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 767px) {
 
     body {
         background-image: linear-gradient(to top, #5f2c82, #a8dadc);
@@ -41,6 +41,41 @@
         font-size: 1.5em;
     }
 }
+
+
+/* configurações tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        background-image: linear-gradient(to top, #5f2c82, #a8dadc);
+    }
+    section#login {
+        width: 80vw;
+        height: 450px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+
+     div#formulario > h1 {
+        font-size: 1.5em;
+    }
+
+    div#formulario > p {
+        font-size: 1.5em;
+    }
+}
+
 
 /* configuraões telas grandes */
 
